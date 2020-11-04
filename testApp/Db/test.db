@@ -1,0 +1,14 @@
+record (ao,"TEST:1") {
+  field(VAL,  "1")
+  info(archive, "instance:fast;monitor:0.5;policy:1mo")
+}
+
+record(longin, "TEST:2") {
+  field(DESC, "testing")
+  field(VAL,  "2354")
+  info(archive, "instance:generic;monitor:2.0;policy:3mo")
+}
+record(longin, "TEST:3") {
+  field(DESC, "testing")
+  field(VAL,  "2")
+}
